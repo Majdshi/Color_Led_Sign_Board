@@ -1,12 +1,17 @@
-THIS FILE contain a Project that run on Silicon Lab C8051F380 MCU 
-USING C LANGUAGE.
+in this file ESP32\_Code\_ColorLedsignboard u will find 2 zip files.
+
+those files include 2 codes for 2 ESP32 MCU.
+
 -----------------------------------------------------------------
-the project contain code that make the C8051F380 connect to RTC(ds1307) using I2C protocol (PINS: P1.0-->SCL & P1.1-->SDA). 
 
-and a code that make the C8051F380 connect to Temperature and Humidity Sensor(AHT10) USING I2C protocol (PINS: P1.0-->SCL & P1.1-->SDA).
+\*The file ESP32_Connected_to_C8051F380 contain Arduino file for the ESP32 MCU that are connected to the Silicon Lab C8051F380 MCU via UART protocol.
 
-and a code that make the C8051F380 connect to Serial MP3 Player v1.2 using UART protocol(UART1 PINS: P0.0-->TX1 & P0.1-->RX1).
+-----------------------------------------------------------------
 
-and a code that make the C8051F380 connect to ESP32 MCU using UART protocol(UART0 PINS: P0.4-->TX0 & P0.5-->RX0) and the date are sent from the C8051F380 to the ESP32.
+\*The file esp32\_hub75\_panels.zip contain Arduino file for the ESP32 MCU that are connected to the RGB LED MATRIX 64X64 P3 via HUB75 Driver.
 
-The code display the data on a TFT LCD MODULE 3.95" THAT are connected to the C8051F380 using SPI protocol.
+
+Libraries that are used in this codes is :
+WiFi.h
+WebServer.h
+ESP32-HUB75-MatrixPanel-I2S-DMA.h
