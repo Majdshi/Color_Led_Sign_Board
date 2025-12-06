@@ -2,8 +2,8 @@
 #include <WebServer.h>
 #include <ESP32-HUB75-MatrixPanel-I2S-DMA.h>
 
-const char* ssid = "hs_5310";
-const char* password = "sf265399";
+const char* ssid = "****";
+const char* password = "****";
 
 WiFiServer tcpServer(5000);
 WiFiClient tcpClient;
