@@ -31,7 +31,7 @@ unsigned char hour_index;
     else if (h < 12) {
 			  playFromFolder(1,76); 
 	  delay_ms(time);
-        playFromFolder(1,(60 + h)); // 1–11
+        playFromFolder(1,(60 + h)); // 1â€“11
 			  delay_ms(time);
         playFromFolder(1,m);
 			  delay_ms(time);
@@ -42,7 +42,7 @@ unsigned char hour_index;
 			  playFromFolder(1,76); 
 	  delay_ms(time);
         if (hour_index == 0) hour_index = 12; // For 12 PM
-        playFromFolder(1,(60 + hour_index)); // 1–11 again
+        playFromFolder(1,(60 + hour_index)); // 1â€“11 again
 			  delay_ms(time);
         playFromFolder(1,m);
 			  delay_ms(time);
